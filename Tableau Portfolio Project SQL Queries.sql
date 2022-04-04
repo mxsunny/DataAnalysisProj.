@@ -70,8 +70,8 @@ order by PercentPopulationInfected desc
 
 
 
--- Queries I originally had, but excluded some because it created too long of video
--- Here only in case you want to check them out
+-- Queries I originally had, but excluded some 
+-- Here only in case to check them out
 
 
 -- 1.
@@ -179,7 +179,4 @@ From PortfolioProject..CovidDeaths
 --Where location like '%states%'
 Group by Location, Population, date
 order by PercentPopulationInfected desc
-
-
-
 
